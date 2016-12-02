@@ -5,7 +5,7 @@
     "vmName": {
       "type": "string",
       "metadata": {
-        "description": "Name of the VM"
+        "description": "amrutha-vm"
       }
     },
     "osType": {
@@ -21,7 +21,7 @@
     "osDiskVhdUri": {
       "type": "string",
       "metadata": {
-        "description": "Uri of the existing VHD in ARM standard or premium storage"
+        "description": "https://amruthastorageaccount.blob.core.windows.net/vhds/amrutha-vm20161202154924.vhd"
       }
     },
     "vmSize": {
@@ -33,13 +33,13 @@
     "existingVirtualNetworkName": {
       "type": "string",
       "metadata": {
-        "description": "Name of the existing VNET"
+        "description": "amrutha-resourcegroup-vnet"
       }
     },
     "existingVirtualNetworkResourceGroup": {
       "type": "string",
       "metadata": {
-        "description": "Name of the existing VNET resource group"
+        "description": "amrutha-resourcegroup"
       }
     },
     "subnetName": {
